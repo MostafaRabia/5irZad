@@ -1,0 +1,27 @@
+@import 'Defaults.css';
+.buttonOneDiv,.buttonTwoDiv{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	margin-top: 60px;
+}
+.buttonOneBut,.buttonTwoBut{
+	width: 350px;
+	height: 60px;
+	border-radius: 15px;
+	background-color: rgba(2,2,2,0.5);
+	color: white;
+	font-size: 26px;
+	cursor: pointer;
+	transition: ease 0.5s all;
+	-webkit-transition: ease 0.5s all;
+	-moz-transition: ease 0.5s all;
+	-o-transition: ease 0.5s all;
+	font-family: 'JF Flat Regular';
+}
+.buttonOneBut:hover,.buttonTwoBut:hover{
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
